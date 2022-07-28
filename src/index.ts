@@ -4,4 +4,5 @@
 // The "WA" global object is available from anywhere.
 
 console.log('Script started successfully');
-WA.openCoWebSite('https://workadventu.re');
+WA.openCoWebSite('https://play.world.fem-net.de');
+//WA.openCoWebSite('https://workadventu.re');

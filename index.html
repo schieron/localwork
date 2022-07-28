@@ -16,15 +16,15 @@
                 if (path.endsWith('index.html')) {
                     path = path.substr(path, path.length - 'index.html'.length);
                 }
-                const url = 'https://play.workadventu.re/_/global/'+window.location.host+path+'map.json?alone=true';
+                const url = 'https://play.world.fem-net.de/_/probe/'+window.location.host+path+'start.json';
                 document.getElementById('mapLink').href = url;
                 document.getElementById('mapLink2').href = url;
                 document.getElementById('mapLink').innerText = url;
 
-                const mapUrl = window.location.protocol+'//'+window.location.host+path+'map.json';
+                const mapUrl = window.location.protocol+'//'+window.location.host+path+'start.json';
                 document.getElementById('mapUrl').innerText = mapUrl;
 
-                const gettingStartedLink = 'https://workadventu.re/getting-started?name=Map&mapUrl='+mapUrl;
+                const gettingStartedLink = 'https://play.world.fem-net.de/_/probe/getting-started?name=Map&mapUrl='+mapUrl;
                 document.getElementById('gettingStartedLink').href = gettingStartedLink;
 
             };
